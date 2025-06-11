@@ -45,10 +45,10 @@ if SETTINGS_EMAIL_BACKEND:
 
 
 SIDEBARS = [
+    "attendance",
     "recruitment",
     "onboarding",
     "employee",
-    "attendance",
     "leave",
     "payroll",
     "pms",
@@ -58,6 +58,6 @@ SIDEBARS = [
     "project",
 ]
 
-WHITE_LABELLING = False
+WHITE_LABELLING = True
 NESTED_SUBORDINATE_VISIBILITY = False
 TWO_FACTORS_AUTHENTICATION = False
